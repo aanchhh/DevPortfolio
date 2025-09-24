@@ -8,8 +8,8 @@ import Brewing from "../Components/Brewing";
 import MainCard from "../Components/MainCard";
 
 export default function Home() {
-  const tallHeight = "h-64";   // Top-Right & Bottom-Left
-  const shortHeight = "h-48";  // Top-Left & Bottom-Right
+  const tallHeight = "h-60";   // Top-Right & Bottom-Left
+  const shortHeight = "h-44";  // Top-Left & Bottom-Right
   const mobileHeight = "h-52"; // Mobile stacked card height
 
   return (

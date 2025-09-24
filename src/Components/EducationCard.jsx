@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Award, Laptop, Download } from "lucide-react";
+import resume from "../assets/resume.pdf";
 
 export default function EducationCard() {
   return (
@@ -56,7 +57,7 @@ export default function EducationCard() {
         transition={{ delay: 2.4, duration: 0.8 }}
       >
         <a
-          href="/resume.pdf"
+          href= {resume}
           download
           className="flex items-center gap-2 bg-[#F5B195]/80 text-black px-4 py-2 mt-4 rounded-lg text-sm font-semibold hover:bg-[#F5B195]/60 transition"
         >
