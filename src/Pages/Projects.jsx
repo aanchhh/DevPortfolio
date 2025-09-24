@@ -6,7 +6,7 @@ import ragi from "../assets/RAGi.svg";
 import raga from "../assets/raga.svg";
 import soiree from "../assets/soiree.svg";
 import studylabs from "../assets/studyLabs.svg";
-import ScrollingRow from "../Components/scrollingRow";
+import ScrollingRow from "../Components/ScrollingRow.jsx";
 import ProjectModal from "../Components/ProjectModal";
 
 // Project Data
